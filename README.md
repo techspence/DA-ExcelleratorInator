@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/7014376/206213652-7abb362b-8253-4be4-9fc1-b94d7b6c1bbc.png)
+
 # DA-ExcelleratorInator
 A common windows security misconfiguration is running Scheduled Tasks or Services as a highly privileged account. This can lead to privilege escalation. This script simplifies searching all servers for Scheduled Tasks and Services running as any account in any of the sensitive Active Directory Groups. E.g.: Domain Admins, Account Operators, etc.
 
