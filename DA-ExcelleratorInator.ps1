@@ -135,6 +135,7 @@ function Get-SensitiveGroupMembers {
 
 
 Function Find-ServiceUser {
+    # from https://github.com/voytas75/Find-TaskServiceUser
     [CmdletBinding()]
     param (
         [parameter(mandatory = $true, position = 0)]
@@ -203,6 +204,7 @@ Function Find-ServiceUser {
 
 
 Function Find-TaskUser {
+    # from https://github.com/voytas75/Find-TaskServiceUser
     [CmdletBinding()]
     param(
         [string]$server,
@@ -296,6 +298,7 @@ Function Find-TaskUser {
 
 
 Function Invoke-SCHTasks {
+    # from https://github.com/voytas75/Find-TaskServiceUser
     [CmdletBinding()]
     param(
         [string]$server,
